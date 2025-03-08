@@ -2,5 +2,9 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
     appType: 'mpa',
-    base: process.env.DEPLOY_BASE_URL
+    base: process.env.DEPLOY_BASE_URL,
+    base: '/portafolios/', // Reemplaza con el nombre de tu repo en GitHub
 });
+
+
+
